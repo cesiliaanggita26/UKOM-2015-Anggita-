@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hmade.cesilia.myapplication.TasKopi4"
+    android:background="#ffffff">
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView3"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="4. Pasang dan jahit perekat, dengan menggunakan mesin jahit, pada bagian dalam masing sisi depan dan belakang.
+
+5. Pasang dan jahit bisban lebar 3cm pada bagian permukaan plastik (sisi depan dan belakang), sebagai tali tas.
+
+6. Kemudian pasang dan jahit renda katun sekaligus bisban pada sisi atas lembar kemasan plastik. Lakukan langkah ini pada kemasan plastik untuk sisi depan dan belakang.
+"
+                android:id="@+id/textView35"
+                android:textSize="20sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="50dp"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:layout_below="@+id/button27"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/button28"
+                android:text="Next"
+                android:textSize="18sp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff"
+                android:background="#F89406"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

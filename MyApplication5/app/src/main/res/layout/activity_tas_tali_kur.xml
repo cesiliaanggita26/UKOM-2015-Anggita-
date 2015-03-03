@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hmade.cesilia.myapplication.TasTaliKur"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView10"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Tutorial Tas Cantik Dari Bahan Tali Kur"
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="#3366FF"
+                android:id="@+id/textView40"/>
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="280dp"
+                android:id="@+id/imageView45"
+                android:src="@drawable/tas_talikur"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/button45"
+                android:text="Next"
+                android:textSize="18sp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff"
+                android:background="#F89406"
+                android:layout_below="@+id/imageView36"
+                android:layout_alignRight="@+id/imageView36"
+                android:layout_alignEnd="@+id/imageView36" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

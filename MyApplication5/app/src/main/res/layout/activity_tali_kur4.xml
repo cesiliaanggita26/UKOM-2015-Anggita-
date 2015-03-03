@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hmade.cesilia.myapplication.TasTaliKur4"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:fillViewport="true"
+        android:layout_toRightOf="@+id/textView31"
+        android:layout_toEndOf="@+id/textView31">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Langkah Pengerjaan"
+                android:id="@+id/textView43"
+                android:textSize="30sp"
+                android:textColor="#3366FF"
+                android:textAlignment="center"
+                android:layout_below="@+id/imageView39"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="1.	Siapkan alat dan juga bahan yang diperlukan untuk membuat gagang tas dan isi tas
+2.	Ukurlah tali kur yang dibutuhkan tersebut kemudian Potong tali kur setelah diukur dan sesuai warna yang kita hendaki
+3.	Potong menjadi beberapa bagian dengan panjang yang sama (sesuai benda yang ingin dibuat)
+4.	Kemudian ikatkan tali kur kepada penggaris dengan melipatnya terlebih dahulu menjadi dua bagian
+5.	Kemudian anyamlah sesuai tipe dan warna yang kita hendaki serta teknik anyaman yang diinginkan
+6.	Selipkan beberapa manic-manik dengan letak sesuai dengan kreativitas
+7.	Selesaikan anyaman sampai dirasa cukup
+8.	Selamat mencoba"
+                android:id="@+id/textView44"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="4dp"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <Button
+                android:layout_width="318dp"
+                android:layout_height="50dp"
+                android:id="@+id/button41"
+                android:text="Selesai"
+                android:textSize="18sp"
+                android:layout_marginTop="35dp"
+                android:textColor="#ffffff"
+                android:background="#F89406"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

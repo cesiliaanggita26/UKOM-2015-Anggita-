@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hmade.cesilia.myapplication.TasTaliKur3"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:fillViewport="true"
+        android:layout_toRightOf="@+id/textView31"
+        android:layout_toEndOf="@+id/textView31">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Alat dan Bahan"
+                android:id="@+id/textView41"
+                android:textSize="30sp"
+                android:textColor="#3366FF"
+                android:textAlignment="center"
+                android:layout_below="@+id/imageView39"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="1.	Gunting untuk memotong tali
+2.	Tali kur sesuai warna yang kita hendaki
+3.	Korek untuk menyambung
+4.	Resleting (sesuaikan ukurannya dengan tas yang sudah kita buat)
+5.	Bahan untuk dalam tas
+6.	Jarum dan benang untuk menyulam bahan dalam tas"
+                android:id="@+id/textView42"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/button40"
+                android:text="Next"
+                android:textSize="18sp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff"
+                android:background="#F89406"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

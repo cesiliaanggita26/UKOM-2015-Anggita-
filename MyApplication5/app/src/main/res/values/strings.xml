@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">H-Made</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_beranda">H-Made</string>
+    <string name="title_activity_barang_bekas">H-Made</string>
+    <string name="title_activity_burung2">H-Made</string>
+    <string name="title_activity_burung3">H-Made</string>
+    <string name="title_activity_burung4">H-Made</string>
+    <string name="title_activity_burung5">H-Made</string>
+    <string name="title_activity_burung6">H-Made</string>
+    <string name="title_activity_burung7">H-Made</string>
+    <string name="title_activity_burung8">H-Made</string>
+    <string name="title_activity_burung9">H-Made</string>
+    <string name="title_activity_burung10">H-Made</string>
+    <string name="title_activity_burung11">H-Made</string>
+    <string name="title_activity_burung16">H-Made</string>
+    <string name="title_activity_burung12">H-Made</string>
+    <string name="title_activity_burung13">H-Made</string>
+    <string name="title_activity_burung14">H-Made</string>
+    <string name="title_activity_burung15">H-Made</string>
+    <string name="title_activity_burung_origami">H-Made</string>
+    <string name="title_activity_kategori">H-Made</string>
+    <string name="title_activity_lainnya">H-Made</string>
+    <string name="title_activity_origami">H-Made</string>
+    <string name="title_activity_tali_kur4">H-Made</string>
+    <string name="title_activity_tas_kopi">H-Made</string>
+    <string name="title_activity_tas_kopi2">H-Made</string>
+    <string name="title_activity_tas_kopi3">H-Made</string>
+    <string name="title_activity_tas_kopi4">H-Made</string>
+    <string name="title_activity_tas_kopi5">H-Made</string>
+    <string name="title_activity_tas_kopi6">H-Made</string>
+    <string name="title_activity_tas_tali_kur">H-Made</string>
+    <string name="title_activity_tas_tali_kur3">H-Made</string>
+</resources>

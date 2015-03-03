@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hmade.cesilia.myapplication" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BerandaActivity"
+            android:label="@string/title_activity_beranda" >
+        </activity>
+        <activity
+            android:name=".BarangBekas"
+            android:label="@string/title_activity_barang_bekas" >
+        </activity>
+        <activity
+            android:name=".Burung2"
+            android:label="@string/title_activity_burung2" >
+        </activity>
+        <activity
+            android:name=".Burung3"
+            android:label="@string/title_activity_burung3" >
+        </activity>
+        <activity
+            android:name=".Burung4"
+            android:label="@string/title_activity_burung4" >
+        </activity>
+        <activity
+            android:name=".Burung5"
+            android:label="@string/title_activity_burung5" >
+        </activity>
+        <activity
+            android:name=".Burung6"
+            android:label="@string/title_activity_burung6" >
+        </activity>
+        <activity
+            android:name=".Burung7"
+            android:label="@string/title_activity_burung7" >
+        </activity>
+        <activity
+            android:name=".Burung8"
+            android:label="@string/title_activity_burung8" >
+        </activity>
+        <activity
+            android:name=".Burung9"
+            android:label="@string/title_activity_burung9" >
+        </activity>
+        <activity
+            android:name=".Burung10"
+            android:label="@string/title_activity_burung10" >
+        </activity>
+        <activity
+            android:name=".Burung11"
+            android:label="@string/title_activity_burung11" >
+        </activity>
+        <activity
+            android:name=".Burung16"
+            android:label="@string/title_activity_burung16" >
+        </activity>
+        <activity
+            android:name=".Burung12"
+            android:label="@string/title_activity_burung12" >
+        </activity>
+        <activity
+            android:name=".Burung13"
+            android:label="@string/title_activity_burung13" >
+        </activity>
+        <activity
+            android:name=".Burung14"
+            android:label="@string/title_activity_burung14" >
+        </activity>
+        <activity
+            android:name=".Burung15"
+            android:label="@string/title_activity_burung15" >
+        </activity>
+        <activity
+            android:name=".BurungOrigami"
+            android:label="@string/title_activity_burung_origami" >
+        </activity>
+        <activity
+            android:name=".Kategori"
+            android:label="@string/title_activity_kategori" >
+        </activity>
+        <activity
+            android:name=".Lainnya"
+            android:label="@string/title_activity_lainnya" >
+        </activity>
+        <activity
+            android:name=".Origami"
+            android:label="@string/title_activity_origami" >
+        </activity>
+        <activity
+            android:name=".TaliKur4"
+            android:label="@string/title_activity_tali_kur4" >
+        </activity>
+        <activity
+            android:name=".TasKopi"
+            android:label="@string/title_activity_tas_kopi" >
+        </activity>
+        <activity
+            android:name=".TasKopi2"
+            android:label="@string/title_activity_tas_kopi2" >
+        </activity>
+        <activity
+            android:name=".TasKopi3"
+            android:label="@string/title_activity_tas_kopi3" >
+        </activity>
+        <activity
+            android:name=".TasKopi4"
+            android:label="@string/title_activity_tas_kopi4" >
+        </activity>
+        <activity
+            android:name=".TasKopi5"
+            android:label="@string/title_activity_tas_kopi5" >
+        </activity>
+        <activity
+            android:name=".TasKopi6"
+            android:label="@string/title_activity_tas_kopi6" >
+        </activity>
+        <activity
+            android:name=".TasTaliKur"
+            android:label="@string/title_activity_tas_tali_kur" >
+        </activity>
+        <activity
+            android:name=".TasTaliKur3"
+            android:label="@string/title_activity_tas_tali_kur3" >
+        </activity>
+    </application>
+
+</manifest>
